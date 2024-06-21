@@ -4,21 +4,17 @@
 /**
  * main - program that prints the alphabet in lowercase and upper case
  *
- * Return: Always 0.
+ * Return: Always 0 (success)
  */
 
 int main(void)
 {
-	char i;
-
-	for (i = 'a'; i <= 'z'; i++)
-
-	{
-	if (i != 'e' && i != 'q')
-	putchar(i);
-	}
-
-	putchar('\n');
-
-	return (0);
+int num;
+while (num < 10)
+{
+printf("%d", num);
+num += 1;
+}
+printf("\n");
+return (0);
 }
