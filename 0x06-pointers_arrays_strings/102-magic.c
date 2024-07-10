@@ -1,10 +1,12 @@
 #include <stdio.h>
+ 
 /**
  * main - Entry point
  * Description: Program sets the third element of array 'a' to 98
- *              and prints the value using a pointer.
+ *		 and prints the value using a pointer.
  * Return: 0 on success
  */
+
 int main(void)
 {
 	int n;
